@@ -1,0 +1,17 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+  .card {
+    max-width: 500px; /* Ancho max */
+    margin: auto; /* centrado */
+}
+
+.card img {
+    height: auto; /* proporcionn */
+    max-height: 200px; /* altura */
+    object-fit: cover; /* ajuste */
+}
+.card-body {
+  max-height: 150px; 
+  overflow-y: auto; /* scroll */
+}
